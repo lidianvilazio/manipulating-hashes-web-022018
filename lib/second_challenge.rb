@@ -7,7 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-
+  result = groceries[:dairy].concat(groceries[:vegetable])
+  result.concat(groceries[:meat])
+  result.concat(groceries[:grains])
   
-
 end
